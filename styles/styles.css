@@ -4,41 +4,6 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 850px) {
-  .logo {
-    width: 50%;
-  }
-  .titulo {
-    font-size: x-large;
-  }
-  .resumen1 {
-    font-size: 12px;
-    font-weight: 700;
-    margin: 10px;
-    width: 30%;
-  }
-  .foto-main1 {
-    width: 300px;
-    margin: 20px;
-  }
-  .res-cartelera {
-    font-size: x-small;
-  }
-  .v-entradas {
-    font-size: smaller;
-  }
-  .card-text {
-    font-size: small;
-  }
-}
-@media (max-width: 768px) {
-  .d-r {
-    font-size: 10px;
-  }
-  .maps {
-    width: 100px;
-  }
-}
 .logo {
   border: solid 5px maroon;
   border-radius: 10% 0 10% 0;
@@ -80,10 +45,11 @@ h1 {
   display: grid;
   grid-template-areas: "resumen resumen-img";
 }
-.padre .resumen {
+.padre .resumen1 {
   margin: 40px 0 0 40px;
   width: 75%;
   font-family: "Times New Roman";
+  font-size: 24px;
 }
 .padre .foto-main1 {
   display: inline-block;
@@ -107,6 +73,19 @@ h1 {
 }
 .padre .historia {
   margin: 30px;
+}
+
+.main-contacto {
+  margin-bottom: 100px;
+}
+
+.h2-galeria {
+  font-size: 30px;
+  font-family: "Times New Roman";
+  font-weight: 400;
+  color: maroon;
+  margin: 90px 0px 0 50px;
+  text-align: start;
 }
 
 .main-entradas {
@@ -135,37 +114,39 @@ h1 {
   color: maroon;
 }
 
-.main-cartelera {
-  height: 1000px;
+@media (max-width: 850px) {
+  .logo {
+    width: 50%;
+  }
+  .titulo {
+    font-size: x-large;
+  }
+  .resumen {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 10px;
+  }
+  .foto-main1 {
+    width: 300px;
+    margin: 20px;
+  }
+  .res-cartelera {
+    font-size: x-small;
+  }
+  .v-entradas {
+    font-size: smaller;
+  }
+  .card-text {
+    font-size: small;
+  }
 }
-.main-cartelera .video-cartelera {
-  height: 300px;
-  width: 400px;
-  padding: 0;
-  margin: 50px 0 40px 40px;
-  border: 2px solid maroon;
-  border-radius: 20px;
-  box-shadow: 10px 10px 10px grey;
-}
-.main-cartelera .res-cartelera {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
-  font-weight: 400;
-  margin: 40px;
-  width: 80%;
-}
-
-.main-contacto {
-  margin-bottom: 100px;
-}
-
-.h2-galeria {
-  font-size: 30px;
-  font-family: "Times New Roman";
-  font-weight: 400;
-  color: maroon;
-  margin: 90px 0px 0 50px;
-  text-align: start;
+@media (max-width: 768px) {
+  .d-r {
+    font-size: 10px;
+  }
+  .maps {
+    width: 100px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
