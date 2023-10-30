@@ -235,13 +235,13 @@ footer {
         margin: 0;
     }
 
-    .fondo-del-festival {
+    .foto-main1 {
         grid-area: resumen-img;
         margin: 0;
         max-width: 100%;
 
     }
-    .convocatoria{
+    .foto-main2{
         grid-area: resumen-img2;
         margin: 0;
         max-width: 100%;

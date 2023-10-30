@@ -1,0 +1,36 @@
+.main-entradas {
+    height: 1000px;
+
+
+
+
+.precios {
+    margin: 20px;
+    font-size: x-large;
+
+}
+
+.ventas {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.entradas {
+    border: 2px solid maroon;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+p {
+    font-size: $tamanio-parrafo;
+    font-family: $fuente-principal;
+    font-weight: 400;
+}
+
+.subtitulo {
+    font-family: $fuente-principal;
+    color: $color-principal;
+}
+
+}

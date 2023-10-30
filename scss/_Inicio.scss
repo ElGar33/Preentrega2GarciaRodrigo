@@ -1,0 +1,52 @@
+.padre {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 147px auto 80px;
+
+.articulo1 {
+    display: grid;
+    grid-template-areas:
+        "resumen resumen-img";
+
+}
+
+.resumen {
+    margin: 40px 0 0 40px;
+    width: 75%;
+    font-family: $fuente-principal;
+    
+}
+
+.foto-main1 {
+    display: inline-block;
+    height: 100%;
+    width: 80%;
+    border:solid 2px $color-principal;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 5%;
+}
+
+
+
+.articulo2 {
+    display: grid;
+    grid-template-areas:
+        "resumen-img resumen-img resumen";
+}
+
+.foto-main2 {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border:solid 2px $color-principal;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 5%;
+
+}
+.historia {
+    margin: 30px;
+}
+
+}
+
+

@@ -1,0 +1,49 @@
+@media (max-width: 850px) {
+
+    .logo  {
+        width: 50%;
+    }
+
+    .titulo {
+        font-size:x-large;
+}
+
+    .resumen1 {
+
+        font-size: 12px;
+        font-weight: 700;
+        margin: 10px;
+        width: 30%;
+       
+    }
+
+    .foto-main1 {
+        
+        width: 300px;
+        margin: 20px;
+    }
+
+    .res-cartelera {
+        font-size:x-small;
+    }
+
+    .v-entradas {
+        font-size: smaller;
+    }
+
+    .card-text {
+        font-size: small;
+    }
+    
+}
+
+@media ( max-width: 768px) {
+    .d-r {
+        font-size: 10px;  
+    }
+
+    .maps {
+        width: 100px;
+    }
+
+}
