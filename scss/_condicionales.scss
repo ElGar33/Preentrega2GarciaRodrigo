@@ -8,11 +8,11 @@
         font-size:x-large;
 }
 
-    .resumen1 {
+    .padre .resumen1 {
 
         font-size: 12px;
         font-weight: 700;
-        margin: 10px; 
+        padding: 10px; 
         
     }
 
@@ -22,19 +22,28 @@
         margin: 20px;
     }
 
-    .res-cartelera {
-        font-size:x-small;
+    .main-cartelera .res-cartelera {
+        font-size:16px;
     }
 
-    .v-entradas {
-        font-size: smaller;
+    .main-entradas .v-entradas {
+        font-size: 16px;
     }
 
-    .card-text {
+    .main-entradas .card-text {
         font-size: small;
     }
+
+    .h2-galeria {
+        font-size: 20px;
+    }
     
-}
+    .carrusel {
+        margin-bottom: 130px;
+    }
+    
+
+    }
 
 @media ( max-width: 768px) {
     .d-r {

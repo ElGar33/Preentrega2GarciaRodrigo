@@ -8,13 +8,13 @@
     width: 400px;
     padding: 0;
     margin: 50px 0 40px 40px;
-    border: 2px solid maroon;
+    border: 2px solid $color-principal;
     border-radius: 20px;
     box-shadow: 10px 10px 10px grey;
 }
 
 .res-cartelera {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $fuente-principal;
     font-size: $tamanio-parrafo;
     font-weight: 400;
     margin: 40px;

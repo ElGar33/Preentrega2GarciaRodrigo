@@ -1,0 +1,13 @@
+@mixin boton ($color-principal, $color-defondo, $text-align) {
+    height: 40px;
+    width: 80px;
+    font-size: 12px;
+    background-color: $color-defondo;
+    color: $color-principal;
+    text-align: $text-align;
+    border: 2px solid maroon;
+}
+
+.btn {
+    @include boton (rgb(234, 234, 241), rgb(63, 44, 2), center )
+}
