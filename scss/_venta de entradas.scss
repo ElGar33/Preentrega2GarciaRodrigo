@@ -1,8 +1,3 @@
-.main-entradas {
-    height: 1000px;
-
-
-
 
 .precios {
     margin: 20px;
@@ -10,16 +5,11 @@
 
 }
 
-.ventas {
-
-    display: flex;
-    flex-direction: row;
-}
-
 .entradas {
     border: 2px solid maroon;
     border-radius: 10px;
     box-shadow: 10px 10px 10px grey;
+    margin-right: 70px;
 }
 
 p {
@@ -31,6 +21,10 @@ p {
 .subtitulo {
     font-family: $fuente-principal;
     color: $color-principal;
+    text-align: center;
 }
 
+.v-entradas {
+    text-align:justify;
 }
+

@@ -2,11 +2,23 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: burlywood;
-    border: 2px solid $color-principal;
     height: 50px;
 
     .d-r {
         margin-top: 10px;
+        margin-left: 10px;
+    }
+    .redes {
+        display:flex;
+        flex-direction: row;
+        list-style: none;
+        text-align: end;
+        
+    }
+    .iconos-redes { 
+        margin: 10px;
+        height: 30px;
+        width: 30px;
     }
 }
 

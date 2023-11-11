@@ -54,7 +54,41 @@
         width: 100px;
     }
 
+    .padre .articulo1, {
+        display: block;
+    }
+
+    .padre .articulo2 {
+        display:block;
+    }
+   
+    .padre .foto-main1 {
+        width: 200px;
+        height: 150px;
+      margin-left: 50px;
+    }
+
+    .padre .foto-main2 {
+        width: 200px;
+        height: 200px;
+        margin-left: 50px;
+    }
+    .volver {
+        font-size: 12px;
+    }
+
 }
+
+
+
+ @media ( max-width:1400px) {
+    .nuevo {
+        display:inline-block;
+     height: 200px;
+     width: 200px;
+    }
+ }
+
 
 
     

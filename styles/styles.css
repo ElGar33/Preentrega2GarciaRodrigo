@@ -33,11 +33,22 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: burlywood;
-  border: 2px solid maroon;
   height: 50px;
 }
 footer .d-r {
   margin-top: 10px;
+  margin-left: 10px;
+}
+footer .redes {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-align: end;
+}
+footer .iconos-redes {
+  margin: 10px;
+  height: 30px;
+  width: 30px;
 }
 
 h1 {
@@ -66,8 +77,9 @@ h1 {
 }
 .padre .foto-main1 {
   display: inline-block;
-  height: 100%;
-  width: 80%;
+  height: 85%;
+  width: 70%;
+  margin-top: 30px;
   border: solid 2px maroon;
   box-shadow: 10px 10px 10px grey;
   border-radius: 5%;
@@ -78,8 +90,9 @@ h1 {
 }
 .padre .foto-main2 {
   display: inline-block;
-  height: 100%;
+  height: 70%;
   width: 100%;
+  margin-top: 30px;
   border: solid 2px maroon;
   box-shadow: 10px 10px 10px grey;
   border-radius: 5%;
@@ -98,53 +111,50 @@ h1 {
   font-weight: 400;
   color: maroon;
   margin: 90px 0px 0 50px;
-  text-align: start;
+  text-align: center;
 }
 
-.main-entradas {
-  height: 1000px;
-}
-.main-entradas .precios {
+.precios {
   margin: 20px;
   font-size: x-large;
 }
-.main-entradas .ventas {
-  display: flex;
-  flex-direction: row;
-}
-.main-entradas .entradas {
+
+.entradas {
   border: 2px solid maroon;
   border-radius: 10px;
   box-shadow: 10px 10px 10px grey;
-}
-.main-entradas p {
-  font-size: 24px;
-  font-family: "Times New Roman";
-  font-weight: 400;
-}
-.main-entradas .subtitulo {
-  font-family: "Times New Roman";
-  color: maroon;
+  margin-right: 70px;
 }
 
-.main-cartelera {
-  height: 1000px;
-}
-.main-cartelera .video-cartelera {
-  height: 300px;
-  width: 400px;
-  padding: 0;
-  margin: 50px 0 40px 40px;
-  border: 2px solid maroon;
-  border-radius: 20px;
-  box-shadow: 10px 10px 10px grey;
-}
-.main-cartelera .res-cartelera {
-  font-family: "Times New Roman";
+p {
   font-size: 24px;
+  font-family: "Times New Roman";
   font-weight: 400;
-  margin: 40px;
-  width: 80%;
+}
+
+.subtitulo {
+  font-family: "Times New Roman";
+  color: maroon;
+  text-align: center;
+}
+
+.v-entradas {
+  text-align: justify;
+}
+
+.main-cartelera .res-cartelera {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 18px;
+  font-weight: 400;
+}
+.main-cartelera .nuevo {
+  border: 2px solid maroon;
+  box-shadow: 10px 10px 10px grey;
+  border-radius: 5%;
+}
+.main-cartelera aside {
+  text-align: center;
 }
 
 @media (max-width: 850px) {
@@ -186,6 +196,80 @@ h1 {
   .maps {
     width: 100px;
   }
+  .padre .articulo1 {
+    display: block;
+  }
+  .padre .articulo2 {
+    display: block;
+  }
+  .padre .foto-main1 {
+    width: 200px;
+    height: 150px;
+    margin-left: 50px;
+  }
+  .padre .foto-main2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .volver {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1400px) {
+  .nuevo {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+  }
+}
+.body-error {
+  width: 100%;
+  height: 100vp;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../multimedia/Monteros-despejado-sol-iglesia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+.section-error {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.h1-error {
+  font-family: sans-serif;
+  color: maroon;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 100px;
+  text-align: center;
+  text-align: center;
+  display: flex;
+}
+
+.volver {
+  color: maroon;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  justify-content: center;
+  padding: 4px;
+  margin: 200px;
+  font-weight: 700;
+}
+
+.gaucho-img {
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  margin: 80px;
 }
 
 /*# sourceMappingURL=styles.css.map */
